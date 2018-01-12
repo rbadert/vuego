@@ -1,7 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" class="md-layout" style="margin-left: 10px">
     <!-- <img src="./assets/logo.png"> -->
+    <div class="md-layout-item">
     <router-view></router-view>
+    </div>
   </div>
 </template>
 
@@ -11,14 +13,8 @@ export default {
 }
 </script>
 
+<link rel="stylesheet" href="./assets/app.css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 20px;
-}
+
 </style>

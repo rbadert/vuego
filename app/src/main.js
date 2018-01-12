@@ -21,6 +21,9 @@ new Vue({
   el: '#app',
   router: router,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  data: {
+    config1: 9999
+  }
 
 })
